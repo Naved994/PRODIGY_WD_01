@@ -5,21 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Navigation Menu</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <span class="brand-text">Welcome</span>
+        </div>
         <ul class="nav-menu">
-            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#home" class="nav-link"><i class="fas fa-code"></i> Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+            <li class="nav-item"><a href="#work" class="nav-link"><i class="fas fa-laptop-code"></i> Work</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
         </ul>
     </nav>
     <div class="content">
-        <section id="home"><h1>Home</h1><p>Welcome to the homepage.</p></section>
-        <section id="about"><h1>About</h1><p>About us section.</p></section>
-        <section id="services"><h1>Services</h1><p>Our services.</p></section>
-        <section id="contact"><h1>Contact</h1><p>Contact us here.</p></section>
+        <section id="home">
+            <h1>Hi, I'm <span class="highlight">Web developer</span></h1>
+            <p>I build modern websites and web applications.</p>
+            <button class="cta-button">View My Work <i class="fas fa-arrow-right"></i></button>
+        </section>
+        <section id="about">
+            <h1>About <span class="highlight">Me</span></h1>
+            <p>I'm a web developer focused on creating clean, efficient, and user-friendly websites.</p>
+            <div class="skills">
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">JavaScript</span>
+            </div>
+        </section>
+        <section id="work">
+            <h1>My <span class="highlight">Work</span></h1>
+            <div class="service-grid">
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Development</h3>
+                    <p>Building fast, responsive websites from scratch.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h3>Design</h3>
+                    <p>Clean and modern design solutions.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Let's <span class="highlight">Connect</span></h1>
+            <p>Have a project in mind? Let's talk about it.</p>
+            <div class="contact-info">
+                <div><i class="fas fa-envelope"></i> sayednaved69@gmail.com</div>
+                <div><i class="fas fa-phone"></i>+91 9869056105</div>
+            </div>
+        </section>
     </div>
     <script src="script.js"></script>
 </body>
