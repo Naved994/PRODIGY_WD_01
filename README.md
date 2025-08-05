@@ -5,19 +5,23 @@ A modern, responsive navigation menu with scroll-based styling and smooth intera
 ## Screenshots
 
 ### Home Section
-![Home Section](screenshots/home.png)
+<img width="1916" height="946" alt="image" src="https://github.com/user-attachments/assets/c104c1be-ab0a-4a0a-8c81-76053414ed9d" />
+
 *Welcome section with modern gradient navigation*
 
 ### About Section
-![About Section](screenshots/about.png)
+<img width="1918" height="951" alt="image" src="https://github.com/user-attachments/assets/d3ce8f97-221f-4e13-b190-c8f78183b756" />
+
 *About section showcasing skills and experience*
 
 ### Work Section
-![Work Section](screenshots/work.png)
+<img width="1919" height="950" alt="image" src="https://github.com/user-attachments/assets/d2a8facf-a2ce-4b49-980d-572d107f507d" />
+
 *Portfolio section displaying development and design services*
 
 ### Contact Section
-![Contact Section](screenshots/contact.png)
+<img width="1919" height="960" alt="image" src="https://github.com/user-attachments/assets/a4a44aee-fd5c-48d4-9351-5efacb3da916" />
+
 *Contact information with elegant layout*
 
 ## Features
@@ -53,11 +57,10 @@ A modern, responsive navigation menu with scroll-based styling and smooth intera
 
 ```
 Task-1/
-├── index.html          # Main HTML structure
-├── styles.css          # CSS styling and animations
-├── script.js          # JavaScript functionality
-├── screenshots/       # Project screenshots
-└── README.md         # Project documentation
+├── index.html         
+├── styles.css          
+├── script.js        
+└── README.md        
 ```
 
 ## Usage
