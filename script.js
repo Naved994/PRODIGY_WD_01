@@ -17,3 +17,13 @@ document.querySelectorAll('.nav-link').forEach(link => {
         this.style.fontWeight = '';
     });
 });
+
+// Add active class on hover for nav links (for extra color pop)
+document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('mouseenter', function() {
+        this.classList.add('active');
+    });
+    link.addEventListener('mouseleave', function() {
+        this.classList.remove('active');
+    });
+});

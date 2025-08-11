@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, #021127ff 0%, #04080eff 100%,);
     min-height: 100vh;
     line-height: 1.6;
 }
@@ -35,6 +35,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 1rem 0;
+    transition: background 0.4s, color 0.4s;
 }
 
 .nav-menu {
@@ -56,6 +57,25 @@ body {
     padding: 10px 20px;
     color: inherit;
     text-decoration: none;
+    .nav-link {
+        display: block;
+        padding: 10px 22px;
+        color: inherit;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.2s;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.08);
+        position: relative;
+    }
+    .nav-link:hover, .nav-link.active {
+        background: linear-gradient(90deg, #3498db 60%, #2b4c7e 100%);
+        color: #fff !important;
+        transform: translateY(-2px) scale(1.07);
+        box-shadow: 0 6px 18px rgba(52, 152, 219, 0.15);
+        font-weight: 600;
+    }
     font-size: 16px;
     font-weight: 500;
     transition: all 0.3s ease;
@@ -64,6 +84,19 @@ body {
 }
 
 .nav-link:hover {
+    .navbar.scrolled {
+        background: linear-gradient(90deg, #fff 0%, #e3eafc 100%);
+        color: #2b4c7e;
+        box-shadow: 0 6px 24px rgba(43, 76, 126, 0.10);
+    }
+    .navbar.scrolled .nav-link {
+        color: #2b4c7e;
+        background: rgba(43, 76, 126, 0.07);
+    }
+    .navbar.scrolled .nav-link:hover, .navbar.scrolled .nav-link.active {
+        background: linear-gradient(90deg, #3498db 60%, #2b4c7e 100%);
+        color: #fff !important;
+    }
     background: rgba(255, 255, 255, 0.2);
     color: #fff;
     transform: translateY(-1px);
@@ -129,10 +162,10 @@ h1 {
 }
 
 .cta-button {
-    padding: 12px 35px;
+    padding: 12px 38px;
     background: linear-gradient(45deg, #2980b9, #3498db);
     border: none;
-    border-radius: 25px;
+    border-radius: 0;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -149,7 +182,7 @@ h1 {
     left: 0;
     width: 0%;
     height: 100%;
-    background: linear-gradient(45deg, #16a085, #2ecc71);
+    background: linear-gradient(45deg, #00030cff, #0d0046ff);
     transition: all 0.4s ease-out;
     z-index: -1;
 }
@@ -227,7 +260,7 @@ h1 {
 }
 
 .service-card p {
-    color: #666;
+    color: #050505ff;
     line-height: 1.6;
     margin-bottom: 0;
     position: relative;
@@ -305,7 +338,7 @@ h1 {
 
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(43, 76, 126, 0.2);
+    box-shadow: 0 20px 40px rgba(185, 195, 211, 0.2);
 }
 
 .project-card:hover img {
