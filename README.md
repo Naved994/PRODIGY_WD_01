@@ -5,22 +5,26 @@ A modern, responsive navigation menu with scroll-based styling and smooth intera
 ## Screenshots
 
 ### Home Section
-<img width="1916" height="946" alt="image" src="https://github.com/user-attachments/assets/c104c1be-ab0a-4a0a-8c81-76053414ed9d" />
+<img width="1917" height="950" alt="image" src="https://github.com/user-attachments/assets/040b5ed4-7835-470f-8a2f-b0b0ff2ce9b0" />
+
 
 *Welcome section with modern gradient navigation*
 
 ### About Section
-<img width="1918" height="951" alt="image" src="https://github.com/user-attachments/assets/d3ce8f97-221f-4e13-b190-c8f78183b756" />
+<img width="1908" height="954" alt="image" src="https://github.com/user-attachments/assets/bc20b440-6605-4c47-b9f5-37a611c9d27a" />
+
 
 *About section showcasing skills and experience*
 
 ### Work Section
-<img width="1919" height="950" alt="image" src="https://github.com/user-attachments/assets/d2a8facf-a2ce-4b49-980d-572d107f507d" />
+<img width="1904" height="949" alt="image" src="https://github.com/user-attachments/assets/bd3dccfa-53d0-4348-a28b-0b37d96724ac" />
+
 
 *Portfolio section displaying development and design services*
 
 ### Contact Section
-<img width="1919" height="960" alt="image" src="https://github.com/user-attachments/assets/a4a44aee-fd5c-48d4-9351-5efacb3da916" />
+<img width="1911" height="954" alt="image" src="https://github.com/user-attachments/assets/9a4ae45a-cbbc-4e83-8e12-d502ca311986" />
+
 
 *Contact information with elegant layout*
 
